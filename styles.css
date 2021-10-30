@@ -1,0 +1,8 @@
+h1 {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.pokemon {
+    display: inline-block;
+}
