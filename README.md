@@ -2,5 +2,7 @@
 
 https://github.com/PokeAPI/pokeapi
 
-```npm install --save-dev --save-exact prettier``` <br>
-```npx prettier --write .```
+https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png
+
+`npm install --save-dev --save-exact prettier` <br>
+`npx prettier --write .`
