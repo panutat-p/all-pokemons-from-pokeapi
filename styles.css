@@ -1,8 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   background-color: antiquewhite;
   text-align: center;
 }
 
-.pokemon {
+section div {
   display: inline-block;
+  text-align: center;
+}
+
+section div img {
+  display: block;
 }

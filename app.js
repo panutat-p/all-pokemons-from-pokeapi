@@ -4,16 +4,18 @@ const BASE_URL =
 const section = document.querySelector("#section");
 
 for (let i = 1; i <= 898; i += 1) {
-  // pokemon div
-  const div = document.createElement('div');
-
-  // add pokemon class to pokemon div
-  div.classList.add('pokemon')
+  // pokemon div (inline-block)
+  const div = document.createElement("div");
 
   // pokemon img
   const img = document.createElement("img");
   img.src = `${BASE_URL}${i}.png`;
 
-  section.appendChild(div);
+  // pokemon number label
+  const label = document.createElement("span");
+  label.innerText = `#${i}`;
+
   div.appendChild(img);
+  div.appendChild(label);
+  section.appendChild(div);
 }
